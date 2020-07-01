@@ -22,8 +22,8 @@ exports.config = {
     browserName: "chrome",
   },
   disableChecks: true,
-  //seleniumAddress: "http://localhost:4444/wd/hub",
-  directConnect: true,
+  seleniumAddress: "http://localhost:4444/wd/hub",
+  //directConnect: true,
   cucumberOpts: {
     require: [path.resolve("./test/step_definitions/**/*.js")],
     format: ["json:./reports/report.json", "./node_modules/cucumber-pretty"],
