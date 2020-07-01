@@ -8,7 +8,7 @@
     "test": "protractor ./test/config/protractor.config.js",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
-    "webdriver-stop": "webdriver-manager stop"
+    "webdriver-shutdown": "webdriver-manager shutdown"
   },
   "author": "EPAM automation lab",
   "license": "ISC",
