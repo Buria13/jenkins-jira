@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "mkdir reports",
-    "test": "protractor ./test/config/protractor.config.js"
+    "test": "protractor ./test/config/protractor.config.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start"
   },
   "author": "EPAM automation lab",
   "license": "ISC",
