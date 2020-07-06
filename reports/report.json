@@ -1,0 +1,59 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Open the home page",
+    "line": 1,
+    "id": "open-the-home-page",
+    "tags": [],
+    "uri": "test\\features\\github.feature",
+    "elements": [
+      {
+        "id": "open-the-home-page;verify-page-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify page title",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open \"https://github.com/\" url",
+            "match": {
+              "location": "test\\step_definitions\\browserActions.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Page title should be \"The world’s leading software development platform · GitHub\"",
+            "match": {
+              "location": "test\\step_definitions\\browserActions.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

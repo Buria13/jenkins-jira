@@ -2,12 +2,9 @@ const path = require("path");
 const reporter = require("cucumber-html-reporter");
 
 const reporterOptions = {
-  theme: "foundation",
-  jsonFile: path.join(__dirname, "../../../protractor-test/reports/report.json"),
-  output: path.join(
-    __dirname,
-    "../../../protractor-test/reports/cucumber_report.html"
-  ),
+  theme: "bootstrap",
+  jsonFile: path.join(__dirname, '../../reports/report.json'),
+    output: path.join(__dirname, '../../reports/cucumber_report.html'),
   reportSuiteAsScenarios: true,
   launchReport: true,
 };
